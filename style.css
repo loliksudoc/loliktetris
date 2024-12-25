@@ -1,26 +1,10 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #282c34;
-    color: white;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
     margin: 0;
-    padding: 0;
-}
-
-#game-container {
-    display: inline-block;
-    background-color: #111;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-canvas {
-    border: 2px solid white;
-    display: block;
-    margin: 0 auto;
-}
-
-h1 {
-    font-size: 2em;
-    color: #ffcc00;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
